@@ -1,0 +1,102 @@
+html {
+	width:100%; 
+	background-image:url("planet.jpg")
+	
+}
+p{
+	font-family:'Courier New',Verdana,Lucida Console;
+	font-size:20px;
+	font-weight:normal;
+	color:white;
+	line-height:1.6em;
+	text-shadow: 1px 2px 1px black;
+	
+}
+
+h1{
+	font-family:'Courier New',Verdana,Lucida Console;
+	font-size:40px;
+	font-weight:bold;
+	color:black;
+	line-height:1.6em;
+	text-decoration:underline;
+	text-align:center;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.nav a:link {
+    color: black;	/*unvisited links inside nav bar*/
+	font-weight:normal;
+	text-decoration:none;
+}
+.nav a:visited {
+    color: black;/* visited link inside nav bar*/
+	font-weight:normal;
+	text-decoration:none;
+}
+.nav ul{
+	font-family:'Courier New',Verdana,Lucida Console;
+	font-size:32px;
+	font-weight:bold;
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:linear-gradient(#00CAD1,#06AFB3,#00CAD1);
+}
+.nav li{
+	float:left;
+	width:33.33%;
+}
+.nav a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+.nav a:hover{
+	color:white;
+	background-color: #111;
+}
+a:link {
+    color: green;	/*unvisited links*/
+	font-weight:normal;
+	text-decoration:none;
+}
+
+a:visited {
+    color: red;/* visited link */
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.contact a:hover{
+	color: yellow;
+	font-size:150%;
+}
+.w3c {	
+	position: absolute;
+    right:0px;
+    top:0px;
+    z-index:0;
+}
+
+.list{
+	font-family:'Courier New',Verdana,Lucida Console;
+	font-size:20px;
+	font-weight:normal;
+	color:white;
+	line-height:1.6em;
+	text-shadow: 1px 2px 1px black;
+}
+
+.list ul{
+	list-style-image:url("film2.png");
+	
+}
